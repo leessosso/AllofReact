@@ -26,7 +26,7 @@ export default class ClassComponent extends Component {
     render() {
         return (
             <div>
-                <h1>Hello, world! It's ClassicComponent</h1>
+                <h1>It's ClassicComponent</h1>
                 <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
             </div>
         );

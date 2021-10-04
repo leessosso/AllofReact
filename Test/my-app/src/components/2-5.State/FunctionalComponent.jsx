@@ -18,7 +18,7 @@ export default function FunctionalComponent() {
 
     return (
         <div>
-            <h1>Hello, world! It's FunctionalComponent</h1>
+            <h1>It's FunctionalComponent</h1>
             <h2>It is {date.toLocaleTimeString()}.</h2>
         </div>
     )

@@ -1,4 +1,5 @@
 import "./App.css";
+import Example from "./components/3-10.Context/Example";
 // import ControlledComponent from './components/2-10.Form/ControlledComponent';
 // import Composition from './components/2-4.Props/Composition';
 // import Extraction from './components/2-4.Props/Extraction/Extraction';
@@ -14,12 +15,13 @@ import "./App.css";
 // import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 // import Button from './components/3-7.HOC/Button';
 // import Input from './components/3-7.HOC/input';
-import Memo from "./components/3-8.Memoization/Memo";
+// import Memo from "./components/3-8.Memoization/Memo";
 
 function App() {
   return (
     <div className="App">
-      <Memo />
+      <Example />
+      {/* <Memo /> */}
       {/* <Input /> */}
       {/* <br /> */}
       {/* <br /> */}

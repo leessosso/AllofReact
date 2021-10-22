@@ -1,5 +1,6 @@
 import "./App.css";
-import Example from "./components/3-10.Context/Example";
+// import Example from "./components/3-10.Context/Example";
+import Component from "./components/3-14.PropTypes/Component";
 // import ControlledComponent from './components/2-10.Form/ControlledComponent';
 // import Composition from './components/2-4.Props/Composition';
 // import Extraction from './components/2-4.Props/Extraction/Extraction';
@@ -20,7 +21,8 @@ import Example from "./components/3-10.Context/Example";
 function App() {
   return (
     <div className="App">
-      <Example />
+      <Component />
+      {/* <Example /> */}
       {/* <Memo /> */}
       {/* <Input /> */}
       {/* <br /> */}
